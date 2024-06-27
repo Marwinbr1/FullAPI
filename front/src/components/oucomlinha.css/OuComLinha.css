@@ -1,0 +1,16 @@
+.ou-com-linha {
+    display: flex;
+    align-items: center;
+  }
+  
+  .linha {
+    flex: 1;
+    height: 1px;
+    background-color: #593B25;
+  }
+  
+  .texto {
+    padding: 0 10px; 
+    color: #593B25; 
+  }
+  
