@@ -3,8 +3,13 @@ const bodyParser = require('body-parser');
 const { sequelize } = require('./models');
 const routes = require('./routes/router');
 const { cleanDB } = require('./controllers/cleanDB');
+const cors = require('cors');
+
 
 const app = express();
+
+app.use(cors());
+
 const secretKey = 'cyno'; 
 
 // Middlewares de análise de corpo

@@ -1,0 +1,22 @@
+.botao-editar {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: #007bff; /* Cor de fundo do botão */
+    border: none; /* Remover borda */
+    cursor: pointer; /* Alterar cursor ao passar por cima */
+
+    /* Centralizar conteúdo verticalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-editar:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilizar o ícone */
+.botao-editar svg {
+    fill: #D9CABF;
+}

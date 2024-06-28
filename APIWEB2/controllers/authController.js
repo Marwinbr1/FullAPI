@@ -43,6 +43,6 @@ function generateToken(user) {
         id: user.id
     }
     
-    const token = jwt.sign(payload, chave, { expiresIn: '1h' });
+    const token = jwt.sign(payload, chave, { expiresIn: '72h' });
     return token;
 }

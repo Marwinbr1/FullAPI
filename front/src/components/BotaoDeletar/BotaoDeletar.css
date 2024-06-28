@@ -1,0 +1,22 @@
+.botao-deletar {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: #FF4949; /* Cor de fundo do botão */
+    border: none; /* Remover borda */
+    cursor: pointer; /* Alterar cursor ao passar por cima */
+
+    /* Centralizar conteúdo verticalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-deletar:hover {
+    background-color: #D61515; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilizar o ícone */
+.botao-deletar-svg path {
+    fill: #D9CABF; /* Define a cor de preenchimento do ícone */
+}

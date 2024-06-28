@@ -1,0 +1,24 @@
+.botao-add {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: #593B25; /* Cor de fundo do botão */
+    border: none; /* Remover borda */
+    cursor: pointer; /* Alterar cursor ao passar por cima */
+
+    /* Centralizar conteúdo verticalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-add:hover {
+    background-color: #2f1f14; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilizar o ícone */
+.botao-add-svg {
+    width: 24px;
+    height: 24px;
+    fill: #D9CABF; /* Define a cor de preenchimento do ícone */
+}

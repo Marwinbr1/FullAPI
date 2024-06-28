@@ -7,3 +7,9 @@
     border-radius: 8px;
     box-sizing: border-box;
 }
+
+.meuInputCustomizado {
+    width: 350px;
+    margin-bottom: 20px;
+  }
+  

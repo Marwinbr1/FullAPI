@@ -1,9 +1,11 @@
 import React from 'react';
 import './Layout.css';
 
-function Layout({ children }) {
+function Layout({ children, estilo }) {
+  const layoutClassName = `${estilo}`;
+
   return (
-    <div className="layout">
+    <div className={layoutClassName}>
       {children}
     </div>
   );

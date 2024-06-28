@@ -18,7 +18,7 @@ function TelaCadastro() {
   };
 
   return (
-    <Layout>
+    <Layout estilo="layout">
       <div className="espacamento">
         <img src={logoImage} alt="Logo da Aplicação" />
         <form className="espacamento" onSubmit={(e) => { e.preventDefault(); handleCadastro(); }}>
